@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VisualStudio\\source\\repos\\MedAzizChouchi\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
+    "F:\\Downloads\\td-.NET-tp8\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
   },
   "projects": {
-    "E:\\VisualStudio\\source\\repos\\MedAzizChouchi\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+    "F:\\Downloads\\td-.NET-tp8\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VisualStudio\\source\\repos\\MedAzizChouchi\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectUniqueName": "F:\\Downloads\\td-.NET-tp8\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "projectName": "AM.ApplicationCore",
-        "projectPath": "E:\\VisualStudio\\source\\repos\\MedAzizChouchi\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectPath": "F:\\Downloads\\td-.NET-tp8\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\aZiz\\.nuget\\packages\\",
-        "outputPath": "E:\\VisualStudio\\source\\repos\\MedAzizChouchi\\AM.ApplicationCore\\obj\\",
+        "outputPath": "F:\\Downloads\\td-.NET-tp8\\AM.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aZiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
